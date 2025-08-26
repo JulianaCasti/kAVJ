@@ -1,0 +1,118 @@
+body{
+    background-color: rgb(255, 251, 246);
+}
+header{
+    background-color: rgb(250, 128, 114);
+    color:rgb(205, 92, 92);
+    text-align: center;
+    width: 90%;
+    height: 20%;
+    margin: auto;
+}
+nav{
+    width: 90%;
+    background-color:#e59866;
+    margin: auto;
+    height: 50px;
+    margin-top: 5px;
+
+}
+section{
+    width: 90%;
+    background-color:#edbb99;
+    margin: auto;
+    height: auto;
+    margin-top: 5px;
+}
+footer{
+    background-color: #e59866  ;
+    width: 90%;
+    height: 250px;
+    margin: auto;
+    margin-top: 5px;
+    
+}
+nav{
+    text-align: center;
+    align-content: center;
+}
+#btnav{
+    height: 90%;
+    background-color:#e59866;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#btnav:hover{
+    height: 100%;
+    background-color: #229c95 ;
+    font-size: 22px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #2f7596;
+}
+h1{
+    text-align: center;
+    background-color: #e59866;
+    color:#000000;
+    font-size:30px;
+    border-radius: 10px;
+}
+    
+#contenido_texto{
+    background-color:#e59866  ;
+     width: 80%;
+     height:auto;
+     margin: auto;
+     padding left: 3%;
+     padding-right: 3%;
+     padding-top: 1%;
+     padding-bottom: 1%;
+     border-radius: 10px;
+}
+p{
+    font-size: 20px;
+    color:rgb(1, 5, 5)
+}
+#contenedor{
+    background-color: #fc9a5b;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+#caja{
+    background-color: #e59866;
+    width: 250px;
+    height: 290px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+#imcatalogo{
+    background-color: #ffffff;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+
+}
+#formulario{
+      background-color: #e59866;
+      text-align: center;
+       width: 30%;
+      height: auto;
+       margin: auto;
+       padding left: 3%;
+      padding-right: 3%;
+      padding-top:  1%;
+      padding-bottom: 1%;
+      border-radius:  10px;
+      box-shadow:inset 0px 0px 10px 0 rgba(20, 20, 20, 0.2);
+}

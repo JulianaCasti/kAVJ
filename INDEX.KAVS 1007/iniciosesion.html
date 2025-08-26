@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css"/>
+    <title>Inicio de sesión</title>
+</head>
+<body>
+    <header>
+        <img src="IMAGENES/baner kavj.png" width="100%" height="100%">
+    </header>
+
+    <nav>
+        <button id="btnav" onclick="location='index.html'">Inicio</button>
+        <button id="btnav" onclick="location='horizonte.html'">Horizonte</button>
+        <button id="btnav" onclick="location='catalogo.html'">Catálogo</button>
+        <button id="btnav" onclick="location='contactenos.html'">Contáctanos</button>
+        <button id="btnav" onclick="location='registro.html'">Registrarse</button>
+    </nav>
+
+    <section>
+        <h1>Iniciar sesión</h1>
+        <div id="formulario">
+            <form action="sesion.php" method="post">
+                <br><br>
+                <label>Usuario:</label>
+                <input type="text" name="email" placeholder="Máximo 20 caracteres" maxlength="20"/><br><br>
+                
+                <label>Contraseña:</label>
+                <input type="password" name="clave" placeholder="Máximo 10 caracteres" maxlength="10"/><br><br>
+
+                <input type="submit" name="iniciosesion" value="Iniciar sesión" id="btnav"><br><br>
+            </form>
+        </div><br><br>
+    </section>
+
+    <footer>
+        <center>
+            Todos los derechos reservados<br>
+            Realizado por Valentina Carrillo, Stefannith Castiblanco,<br>
+            Karin Gabriela Cortes Leon, Natally Mendez<br>
+            <img src="IMAGENES/Copyright.svg.png" width="5%"><br>
+            Biblioteca virtual KAVJ 2025
+        </center>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" contet="width-device-width, initial-scale-1">
+        <link rel="stylesheet"href="estilos.css"/>
+         <title>registrarse</title>
+    </head>
+    <body>
+        <header>
+            <img src="IMAGENES/baner kavj.png" width="100%" height="100%">
+        </header>
+        <nav>
+            
+           <button id="btnav" role="link " onclick="location='index.html'">Inicio</button>
+           <button id="btnav" role="link " onclick="location='horizonte.html'">Horizonte</button>
+           <button id="btnav" role="link " onclick="location='catalogo.html'">Catalogo</button>
+            <button id="btnav" role="link " onclick="location='contactenos.html'">contactanos</button>
+             <button id="btnav" role="link " onclick="location='iniciosesion.html'">Iniciar sesion</button>
+        </nav>
+        <section>
+            <h1>registro de usuario</h1>
+         <div id="formulario">
+<form action="registro.php" method="post">
+    <br><br><label>Nombres:</label>
+    <input type="text" name="nombres" placeholder="nombres sin apellido"/><br><br>
+
+    <label>Apellidos:</label>
+    <input type="text" name="apellidos" placeholder="Digite apellidos completos"/><br><br>
+
+    <label>Dirección:</label>
+    <input type="text" name="direccion" placeholder="Digite dirección"/><br><br>
+
+    <label>Teléfono:</label>
+    <input type="text" name="telefono" placeholder="Máximo 10 dígitos" maxlength="10"/><br><br>
+
+    <label>Correo Electrónico:</label>
+    <input type="email" name="correo" placeholder="No olvidar el @"/><br><br>
+
+    <label>Selecciona el rol:</label>
+    <select name="rol">
+        <option value="lector">lector</option>
+        <option value="escritor">escritor</option>
+    </select><br><br>
+
+    <label>Usuario:</label>
+    <input type="text" name="usuario" placeholder="Máximo 20 caracteres" maxlength="20"/><br><br>
+
+    <label>Contraseña:</label>
+    <input type="password" name="clave" placeholder="Máximo 10 caracteres" maxlength="10"/><br><br>
+
+    <label>Aceptar términos y condiciones:</label>
+    <input type="checkbox" name="validar"><br><br>
+
+    <input type="submit" name="registro" value="Registrarse" id="btnav"><br><br>
+</form>
+
+                </div><br><br>
+    
+        </section>
+        <footer>
+            <center>todos los derechos reservados<br>
+                realizado por Valentina Carrillo, Stefannith Castiblanco,<br> Karin Gabriela Cortes Leon, Natally Mendez<br>
+                <img src="IMAGENES/Copyright.svg.png" width="5%"><br>
+                biblioteca virtula KAVJ 2025
+             </center>
+        </footer>
+           
+    </body>
+</html>
